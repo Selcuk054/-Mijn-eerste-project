@@ -2,7 +2,7 @@ package P07_Forloop;
 
 public class Q07_ForloopTerstenyazdir {
     public static void main(String[] args) {
-        String input="Vandaag is het mooi weer";
+        String input="Ik ga naar winkelen" ;
         terstengetir(input);
     }
     public static void terstengetir(String input) {
