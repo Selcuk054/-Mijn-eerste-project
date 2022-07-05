@@ -17,13 +17,14 @@ public class P06_ForLoop_Faktoriyel {
         if (num<0){
             System.out.println("Lutfen gecerli bir sayi giriniz");
 
-        }else if (num>0 && num<=10){
+        }else if (num>0 && num<10){
 
             for (int i=1; i <=num ; i++) {
                 totaal*=i;
             }
             System.out.println("Deger :"+totaal);
         }else {
+            System.out.println("Lutfen gecerli bir sayi giriniz");
 
     }
 }

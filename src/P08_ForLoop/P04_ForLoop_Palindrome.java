@@ -8,7 +8,7 @@ public class P04_ForLoop_Palindrome {
         //olup olmadigini kontrol eden bir program yaziniz.
 
         Scanner scan=new Scanner(System.in);
-        System.out.println("Lutsen bir String giriniz");
+        System.out.println("Lutfen bir String giriniz");
         String str=scan.nextLine();
 
         String str1=str.substring(str.length()-1);
