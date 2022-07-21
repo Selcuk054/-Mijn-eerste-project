@@ -10,8 +10,8 @@ public class Q01_rakamlarToplami {
         Scanner scan=new Scanner(System.in);
         System.out.println("Lutfen rakamlarinin toplanmasini istediginiz sayiyi giriniz");
         int sayi= scan.nextInt();
-
         int toplam=0;
+
         while(sayi>0) {
             toplam += sayi % 10;
             sayi = sayi / 10;
