@@ -18,7 +18,7 @@ public class Q06_3harf {
         Scanner scan=new Scanner(System.in);
         String isim=scan.nextLine();
 
-        String result=(isim.length()==3)? "Isim 3 haraflidir" :"Lutfen 3 harfli bir isim giriniz";
+        String result=(isim.length()==3)? "Isim 3 haraflidir" :"3 harfli degildir";
         System.out.println(result);
 
         String result1=((isim.substring(0,1).equals(isim.substring(1,2))) || (isim.substring(0,1).equals(isim.substring(2,3))))? "Isim ayni karakterlere sahip" : "Dizenin benzersiz karakterleri vardir";

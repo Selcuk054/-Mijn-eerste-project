@@ -6,20 +6,22 @@ import java.util.List;
 
 public class Q07replitDeneme {
     public static void main(String[] args) {
-
-        int[] arr={1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        List<Integer> list= Arrays.asList();
-        int toplam=0;
-        for(int each1:list){
-
-            toplam=toplam+each1;
+            int sayi=0;
 
 
-        }System.out.println("Array toplami: " + toplam);
-
-
-
-
-
-    }
+            for(int i=0; i< 10; i++){
+                System.out.println("0");
+                for(int j=0;j<10;j++){
+                    System.out.print("0 ");
+                }
+            }
+        }
 }
+
+
+
+
+
+
+
+
