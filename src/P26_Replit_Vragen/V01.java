@@ -27,6 +27,44 @@ public class V01 {
         String str=arr.toString();
         System.out.println(str);
 
+        List<String> listem1=new ArrayList<>();
+        listem.add("siyah");
+        listem.add("sari");
+        listem.add("mavi");
+        listem.add("turuncu");
+
+        System.out.println(listem);
+
+        String arr1[]= listem.toArray(new String[0]);
+        System.out.println(Arrays.toString(arr));
+
+        String str1=arr.toString();
+        System.out.println(str);List<String> listem2=new ArrayList<>();
+        listem.add("siyah");
+        listem.add("sari");
+        listem.add("mavi");
+        listem.add("turuncu");
+
+        System.out.println(listem);
+
+        String arr2[]= listem.toArray(new String[0]);
+        System.out.println(Arrays.toString(arr));
+
+        String str2=arr.toString();
+        System.out.println(str);List<String> listem3=new ArrayList<>();
+        listem.add("siyah");
+        listem.add("sari");
+        listem.add("mavi");
+        listem.add("turuncu");
+
+        System.out.println(listem);
+
+        String arr3[]= listem.toArray(new String[0]);
+        System.out.println(Arrays.toString(arr));
+
+        String str3=arr.toString();
+        System.out.println(str);
+
 
     }
 }
