@@ -66,5 +66,10 @@ public class V01 {
         System.out.println(str);
 
 
+        System.out.println("Deneme yazimi silinebilir");
+
+
+
+
     }
 }
